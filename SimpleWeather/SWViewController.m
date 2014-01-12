@@ -36,7 +36,7 @@
     // Stack layers
 	
     self.screenHeight = [UIScreen mainScreen].bounds.size.height;
-    UIImage *background = [UIImage imageNamed:@"bg4.jpg"];
+    UIImage *background = [UIImage imageNamed:@"bg.jpg"];
     
     self.backgroundImageView = [[UIImageView alloc] initWithImage:background];
     self.backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
